@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+	background: url(img/bg.jpg);
+	background-size: cover;
+
+	
+}
+
+img{
+	border-radius: 10px;
+	width: 100px;
+
+}
+
+h1{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.container{
+	width: 800px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid orangered;
+	border-radius: 30px;
+
+	.row{
+
+		.col-md-7{
+			
+			
+			.logo{
+				display: flex;
+				width: 100%;
+				
+				h2{
+					padding-left: 50px;
+					padding-top: 20px;
+				}
+				
+			}
+
+			padding-top: 20px;
+			border-right: 2px solid orangered;
+
+			.single-item{
+				padding-top: 40px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-bottom: 2px solid orangered;
+				
+				.si-content{
+					padding-left: 20px;
+				}
+
+				.actions{
+					text-align: center;
+				}
+
+				&:last-child{
+					border: none;
+				}
+
+				input{
+					width: 70px;
+					margin-left: 20px;
+					margin-right: 20px;
+					text-align: center;
+				}
+				
+				img{
+					width: 150px;
+				}
+
+				button{
+					width: 60px;
+				}
+			}
+		}
+
+		.col-md-5{
+			background: url(img/cart.png);
+			background-size: 100px;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+
+			h2{
+				padding-top: 20px;
+			}
+			.list{	
+				padding-top: 20px;
+				padding-left: 20px;
+				display: flex;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+				
+				h5{
+					padding-right: 5px;
+					margin-top: 6px;
+				}
+
+				button{
+					margin-left: 40px;
+					width: 100px;
+				}
+			}
+
+			.total{
+				position: absolute;
+				bottom: 10px;
+				font-size: 30px	;
+			
+			}
+		}
+	}
+
+}

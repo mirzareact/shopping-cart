@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: url(img/bg.jpg);
+  background-size: cover;
+}
+
+img {
+  border-radius: 10px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid orangered;
+  border-radius: 30px;
+}
+.container .row .col-md-7 {
+  padding-top: 20px;
+  border-right: 2px solid orangered;
+}
+.container .row .col-md-7 .logo {
+  display: flex;
+  width: 100%;
+}
+.container .row .col-md-7 .logo h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.container .row .col-md-7 .single-item {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid orangered;
+}
+.container .row .col-md-7 .single-item .si-content {
+  padding-left: 20px;
+}
+.container .row .col-md-7 .single-item .actions {
+  text-align: center;
+}
+.container .row .col-md-7 .single-item:last-child {
+  border: none;
+}
+.container .row .col-md-7 .single-item input {
+  width: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.container .row .col-md-7 .single-item img {
+  width: 150px;
+}
+.container .row .col-md-7 .single-item button {
+  width: 60px;
+}
+.container .row .col-md-5 {
+  background: url(img/cart.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.container .row .col-md-5 h2 {
+  padding-top: 20px;
+}
+.container .row .col-md-5 .list {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container .row .col-md-5 .list h5 {
+  padding-right: 5px;
+  margin-top: 6px;
+}
+.container .row .col-md-5 .list button {
+  margin-left: 40px;
+  width: 100px;
+}
+.container .row .col-md-5 .total {
+  position: absolute;
+  bottom: 10px;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
